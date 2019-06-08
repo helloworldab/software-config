@@ -1,2 +1,2 @@
-This is a simple practise
-hello world
+1.有用的软件配置
+2.脚本工具
