@@ -10,7 +10,7 @@ https://sourceforge.net/projects/astyle/
                         其他软件配置参数
 MDK        //单个文件         
 command     D:\Program Files\AStyle\bin\AStyle.exe
-arguments   --style=allman -k3 -W1 -xG -S -s4 -xb -U -p -xf -xh -xC120 -xL -H -Y -xW -w -n !E  
+arguments   --style=allman -k3 -W1 -xG -S -T -xb -U -p -xf -xh -xC120 -xL -H -Y -xW -w -n !E  
 
 source insight    
-run         "D:\Program Files (x86)\Source Insight 4.0\AStyle\bin\AStyle.exe" --style=allman -k3 -W1 -xG -S -s4 -xb -U -p -xf -xh -xC120 -xL -H -Y -xW -w -n %f
+run         "D:\Program Files (x86)\Source Insight 4.0\AStyle\bin\AStyle.exe" --style=allman -k3 -W1 -xG -S -T -xb -U -p -xf -xh -xC120 -xL -H -Y -xW -w -n %f
