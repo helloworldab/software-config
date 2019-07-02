@@ -13,7 +13,7 @@ set filename=%~nx1
 set pats=%~dp1  
 ::首次使用,请修改下面的AsPath的路径!!!!!!!!!!!!!!!!!!!!!!!!!  
 set AsPath="D:\Program Files\AStyle\bin\AStyle.exe"  
-set Astyle_config="--style=allman -k3 -W1 -xG -S -s4 -xb -U -p -xf -xh -xC120 -xL -H -Y -xW -w -n"
+set Astyle_config="--style=allman -k3 -W1 -xG -S -T -xb -U -p -xf -xh -xC120 -xL -H -Y -xW -w -n"
 
 if /i "%~1"=="" goto :doubleClick   
 IF EXIST "%~1\" GOTO :dir  
